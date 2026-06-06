@@ -2,3 +2,10 @@
 .venv/
 __pycache__/
 *.pyc
+
+# Label Studio sync output
+classes.txt
+images/
+labels/
+notes.json
+result.json

@@ -22,6 +22,12 @@ Install dependencies with [uv](https://docs.astral.sh/uv/) and fetch the latest 
 cp .env.example .env
 # Set LABEL_STUDIO_API_KEY and other values in .env
 
+make sync
+```
+
+`make sync` runs `uv sync` and then `sync_from_label_studio.py`. You can also invoke the script directly:
+
+```bash
 uv sync
 uv run python sync_from_label_studio.py
 ```
